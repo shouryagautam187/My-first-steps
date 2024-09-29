@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Shourya Gautam</h1>
+        <p>Web Developer | Creative Thinker</p>
+        <nav>
+
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am from madhya pradesh and i really enjoy socializing with people and playing football, i am also a big fan of watching sports, My branch is cse core and i am a first year student at SRMIST kattankuluthar.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Basic C</li>
+            <li>Python</li>
+
+        </ul>
+    </section>
+
+
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2024 Your Name</p>
+        <div>
+            <a href="https://www.linkedin.com/in/shourya-gautam-0a3820257" target="_blank">LinkedIn</a>
+            <a href="https://github.com/shouryagautam187" target="_blank">GitHub</a>
+            <a href="https://wa.me/+919059363207">Contact</a>
+        </div>
+    </footer>
+</body>
+</html>
